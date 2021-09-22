@@ -19,9 +19,25 @@ h4 {
     font-size: 24px;
 }
 
+
 header {
-    background-image: url("/img/headerbw.jpg");
-    background-size: cover;
+    border-bottom: solid 2px white;
+}
+  
+.top-section {
+    background-image: url("/img/header.jpg");
+    background-position: center;
+}
+  
+.content {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+footer {
+    color: white;
+    background-color: black;
 }
 
 footer ul {
