@@ -23,14 +23,14 @@ h4 {
 
 
 .top-section {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-}
-  
-.content {
     background-image: url("/img/header.jpg");
     background-position: center;
     max-height: 100%;
+}
+  
+.content {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
   
