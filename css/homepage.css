@@ -19,3 +19,17 @@ header {
     background-image: url("/img/headerbw.jpg");
     background-size: cover;
 }
+
+footer ul {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 300;
+    text-decoration: underline;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+footer .social-networks .social-logo {
+    height: 30px;
+    filter: brightness(0) invert(1);
+    margin-inline: 5px;
+}
