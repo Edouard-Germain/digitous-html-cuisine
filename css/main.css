@@ -25,6 +25,13 @@ h4 {
     font-size: 24px;
 }
 
+button {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
 
 /* Top-section */
 
@@ -43,6 +50,10 @@ header nav a{
 }
 
 /* Sidebar */
+
+.sidebar button {
+    background-color: white;
+}
 
 .sidebar .social-networks img {
     height: 20px;
@@ -68,4 +79,12 @@ footer .social-networks img {
     height: 20px;
     filter: brightness(0) invert(1);
     margin-inline: 5px;
+}
+
+footer button {
+    background-color: black;
+    color: white;
+    border: solid 1px white;
+    border-radius: 5px;
+    padding: 5px 20px;
 }
