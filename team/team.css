@@ -1,0 +1,12 @@
+.top-section {
+    background-image: url("../img/team/team.jpg");
+    background-position: center;
+    height: 400px;
+}
+
+.content {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+
