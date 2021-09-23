@@ -1,0 +1,17 @@
+.test {
+    display:flex;
+}
+p {
+    font-family: Oswald;
+}
+body {
+    font-family: courgette;
+}
+aside {
+    font-family: courgette;
+}
+aside form {
+font-family: courgette;
+display: flex;
+flex-direction: column;
+}
