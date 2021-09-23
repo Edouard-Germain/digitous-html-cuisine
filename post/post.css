@@ -1,5 +1,5 @@
 .top-section {
-    background-image: url("../img/header.jpg");
+    background-image: url("../img/articles/suzette/suzette-header.jpg");
     background-position: center;
     height: 400px;
 }
@@ -31,3 +31,4 @@ font-family: courgette;
 display: flex;
 flex-direction: column;
 }
+
