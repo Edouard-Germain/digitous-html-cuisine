@@ -1,35 +1,16 @@
-.titre-contenu {
-    font-family: 'Oswald', sans-serif;
-    font-size: 24px;
+.top-section {
+    background-image: url("../img/header.jpg");
+    background-position: center;
+    height: 400px;
 }
 
-.article .article-txt h4 {
-    font-family: 'Courgette', cursive;
-    font-weight: bold;
-    font-size: 20px;
+.content {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
 }
 
-.article .article-txt p {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-}
-
-header {
-    background-image: url("/img/headerbw.jpg");
-    background-size: cover;
-}
-
-footer ul {
-    font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-    text-decoration: underline;
-    list-style-type: none;
-    padding-left: 0;
-}
-
-footer .social-networks .social-logo {
-    height: 30px;
-    filter: brightness(0) invert(1);
-    margin-inline: 5px;
+.titre-site img {
+    height: 60px;
+    margin-bottom: 40px;
 }

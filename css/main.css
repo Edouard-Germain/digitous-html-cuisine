@@ -5,13 +5,19 @@ body {
 
 p {
     font-family: 'Oswald', sans-serif;
-    font-weight: 300;
-    font-size: 18px;
+    font-weight: 200;
+    font-size: 14px;
+}
+
+h1 {
+    font-family: 'Courgette', cursive;
+    font-size: 36px;
 }
 
 h3 {
     font-family: 'Oswald', sans-serif;
-    font-size: 24px;
+    font-size: 28px;
+    font-weight: 400;
 }
 
 h4 {
@@ -20,20 +26,30 @@ h4 {
 }
 
 
+/* Top-section */
+
+ 
 header {
-    border-bottom: solid 2px white;
-}
-  
-.top-section {
-    background-image: url("/img/header.jpg");
-    background-position: center;
-}
-  
-.content {
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom: solid 1px white;
+    color:white;
 }
 
+header nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* Sidebar */
+
+.sidebar .social-networks img {
+    height: 30px;
+    margin-inline: 5px;
+}
+
+/* Footer */
 
 footer {
     color: white;
@@ -48,7 +64,7 @@ footer ul {
     padding-left: 0;
 }
 
-footer .social-networks .social-logo {
+footer .social-networks img {
     height: 30px;
     filter: brightness(0) invert(1);
     margin-inline: 5px;
