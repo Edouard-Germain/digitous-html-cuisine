@@ -1,3 +1,19 @@
+.top-section {
+    background-image: url("../img/header.jpg");
+    background-position: center;
+    height: 400px;
+}
+
+.content {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+
+.titre-site img {
+    height: 60px;
+    margin-bottom: 40px;
+}
 .test {
     display:flex;
 }

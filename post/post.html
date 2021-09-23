@@ -16,18 +16,55 @@
     <!-- Main CSS -->
     <link href="./css/main.css" rel="stylesheet">
 
-    <!--bloc css-->
+    <!--post css-->
     <link href="post.css" rel="stylesheet">
     
-    <title> Cui'zine Blocs</title>
+    <title> Cui'zine Posts</title>
 </head>
 <body>
-    <header>
+    <div class="top-section">
+        <div class="content">
+          <header>
+              <nav class="navbar navbar-expand-lg navbar-dark">
+                <div class="container-fluid">
+                  <h2>Cui'zine</h2>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Accueil</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Equipe</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>
+          </header>
 
-    </header>
+          <div class="titre-site text-center py-5">
+            <img src="../img/logo_square_white.png"/>
+            <h1 class="pt-3">Cui'zine</h1>
+            <h4>Le mag cuisine</h4>
+          </div>
+        </div>
+      </div>
+  
+    </div>
+
     <!--corps de la page-->
-    <section class="test">
-        <div class="container">
+    
+        <div class="container mt-5">
             <div class="row">
                 <div class="col-8">
                     <h3>Intro</h3>
@@ -41,28 +78,34 @@
                     <p>La franchise "Chez Suzette" qui fait un carton chez les bretons ouvre son premier restaurant à Paris dans le quartier latin. Antoine de Cui'zine a testé pour vous les saveurs sucrés, salés au froment ou au sarrazin!</p>
 
                 </div>
+            
 
-            <div class="col-3">
-            
-                <form>
-                    <p>Recheche</p>
-                    <input type="text" placeholder="recherche...">
-                    <button>Ok</button>
-                    <p>Newsletter</p>
-                    <input type="text" placeholder="email">
-                    <button>Ok</button>
-                </form>
-                <p>partager</p>
-                <div class="logos">
-                    <img src="/img/facebook.png" alt="facebook">
-                    <img src="/img/twitter.png" alt="twitter">
-                    <img src="/img/youtube.png" alt="youtube">
-                    <img src="/img/instagram.png" alt="instagram">
-                
-            </div>
-            
+                <div class="sidebar col-md-3 d-none d-lg-block">
+                    <!-- Sidebar -->
+                    <h5>Recherche</h5>
+                    <div class="d-grid gap-2">
+                    <input type="text" id="name" name="name" required
+                    minlength="4" maxlength="8" size="10" placeholder="Recherche">
+                    <button>OK</button>
+                    </div>
+                    <!-- Newsletter-->
+                    <h5 class="pt-4">Newsletter</h5>
+                    <div class="d-grid gap-2">
+                    <input type="text" id="name" name="name" required
+                    minlength="4" maxlength="8" size="10" placeholder="Email...">
+                    <button>S'inscrire</button>
+                    </div>
+                    <!-- Social media-->
+                    <h5 class="pt-4">Partager</h5>
+                    <div class="social-networks">
+                        <img src="./img/facebook.png"/>
+                        <img src="./img/instagram.png"/>
+                        <img src="./img/youtube.png"/>
+                        <img src="./img/twitter.png"/>
+                    </div>
+                </div>
          </div>
-    </section>
+    
     <!--A propos-->
     <div class="container mt-4 ps-1">
         <div class="row ps-5">
@@ -127,42 +170,46 @@
                         <p>Ca sent le coup marketing à plein nez !</p>
                     </div>
                 </div>
-                </div>
+                    
             </div>
-            <!--footer-->
-            <footer class="container p-3">
+<!-- Footer -->      
+<footer class="p-3">
 
-                <div class="row">
-                    <div class="col-sm-6">
-                        <h4>Catégories</h4>
-                        <ul>
-                            <li>Revues</li>
-                            <li>Recettes</li>
-                            <li>Découvertes</li>
-                        </ul>
-        
-                        <h4>Archives</h4>
-                        <ul>
-                            <li>2019</li>
-                            <li>2018</li>
-                            <li>2017</li>
-                        </ul>
-            <div class="col-sm-6">
-                    <h5>Newsletter</h5>
-                    <input type="text" id="name" name="name" required
-                    minlength="4" maxlength="8" size="10" placeholder="Email...">
-                    <button>S'inscrire</button>
-                    <h5 class="mt-3">Partager</h5>
-                    <div class="social-networks">
-                        <img class="social-logo" src="./img/facebook.png"/>
-                        <img class="social-logo" src="./img/instagram.png"/>
-                        <img class="social-logo" src="./img/youtube.png"/>
-                        <img class="social-logo" src="./img/twitter.png"/>
-                    </div>
-            </div>
+    <div class="row ms-md-5 my-md-5">
+
+        <div class="col-md-12 col-lg-4">
+            <h4>Catégories</h4>
+            <ul>
+                <li>Revues</li>
+                <li>Recettes</li>
+                <li>Découvertes</li>
+            </ul>
         </div>
 
-        </footer>
-   
+        <div class="col-lg-4">
+            <h4>Archives</h4>
+            <ul>
+                <li>2019</li>
+                <li>2018</li>
+                <li>2017</li>
+            </ul>
+        </div>
+
+        <div class="col-lg-4">
+                <h5>Newsletter</h5>
+                <input type="text" id="name" name="name" required
+                minlength="4" maxlength="8" size="10" placeholder="Email...">
+                <button>S'inscrire</button>
+                <h5 class="mt-3">Partager</h5>
+                <div class="social-networks">
+                    <img class="social-logo" src="../img/facebook.png"/>
+                    <img class="social-logo" src="../img/instagram.png"/>
+                    <img class="social-logo" src="../img/youtube.png"/>
+                    <img class="social-logo" src="../img/twitter.png"/>
+                </div>
+        </div>
+    </div>
+
+</footer>
 </body>
 </html>
